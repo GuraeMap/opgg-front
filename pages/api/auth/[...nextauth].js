@@ -7,7 +7,7 @@ export const authOptions = {
   providers: [
     GoogleProvider({
       clientId: process.env.REACT_APP_GOOGLE_ID,
-      clientSecret: process.REACT_APP_env.GOOGLE_KEY,
+      clientSecret: process.REACT_APP_GOOGLE_KEY,
     }),
     KaKaoProvider({
         clientId: process.env.REACT_APP_KAKAO_ID,
