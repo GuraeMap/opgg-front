@@ -1,13 +1,16 @@
+import Link from "next/link";
+import Sidebar from "./sidebar";
+
 export default function Navbar(){
     return(
         <div>
             <span className="flex flex-col pl-24 p-4 ">
                 <div className="flex">
-                    <div className="text-3xl font-black">⌁ 번개장터</div>
+                    <Link href={'/'} className="text-3xl font-black">⌁ 번개장터</Link>
                     <input 
                         className="bg-white ml-20 w-2/5 h-10"
                         placeholder="상품명, 지역명, @상점명 입력" />
-                    <div className="ml-80 text-gray-600">판매하기</div>
+                    <Link href={'/sale'} className="ml-80 text-gray-600">판매하기</Link>
                     <div className="ml-4 text-gray-600">내상점</div>
                     <div className="ml-4 text-gray-600">번개톡</div>
                 </div>
@@ -20,6 +23,7 @@ export default function Navbar(){
                 {/* <span className=""> 마이페이지 </span> */}
             </span>
             <div className="border-b border-gray-100 h-8"></div>
+            <Sidebar />
             
             
             
