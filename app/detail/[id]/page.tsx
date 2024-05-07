@@ -36,7 +36,7 @@ export default function Detail(){
                     </div>
                     
                     <div className="flex pt-4 text-xl p-2">
-                        <div className="ml-4 bg-red-600 text-white rounded-lg w-4/5 text-center p-6 hover:bg-red-500">장터톡</div>
+                        <Link href={'/chatting'} className="ml-4 bg-red-600 text-white rounded-lg w-4/5 text-center p-6 hover:bg-red-500">장터톡</Link>
                         <div className="ml-4 bg-red-600 text-white rounded-lg w-4/5 text-center p-6 hover:bg-red-500">구매하기</div>
                         <div className="ml-4 bg-red-600 text-white rounded-lg w-4/5 text-center p-6 hover:bg-red-500">🖤</div>
                         
