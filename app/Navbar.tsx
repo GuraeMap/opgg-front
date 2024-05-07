@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Sidebar from "./sidebar";
-import Close from "./close";
 
 export default function Navbar(){
     return(
@@ -13,7 +12,7 @@ export default function Navbar(){
                         placeholder="상품명, 지역명, @상점명 입력" />
                     <Link href={'/sale'} className="ml-80 text-gray-600 hover:text-black">판매하기</Link>
                     <div className="ml-4 text-gray-600 hover:text-black">내상점</div>
-                    <div className="ml-4 text-gray-600 hover:text-black">번개톡</div>
+                    <Link href ={'/chatting'} className="ml-4 text-gray-600 hover:text-black">번개톡</Link>
                 </div>
 
                 <div className="pt-6">
