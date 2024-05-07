@@ -8,10 +8,10 @@ const List = () => {
         { name : '12월 제철과일 골라담기 (택1)', money: '13,900원', sale: '14%' , Salemoney: '11,900원'}
     ];
 
-    const repeatCount = 5; // 반복 횟수
+    const repeatCount = 6; // 반복 횟수
 
     return (
-        <div>
+        <div className='pb-20'>
             {[...Array(repeatCount)].map((_, index) => (
                 <div className="grid grid-cols-4 gap-4 place-items-center pt-10" key={index}>
                     {users.map((user, i) => (

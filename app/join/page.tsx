@@ -30,7 +30,7 @@ const Join: React.FC = () => {
           <div className="pt-10 grid grid-cols-3 gap-2">
             <div>아이디<a className="text-orange-600">*</a></div>
             <input placeholder="아이디를 입력해주세요" />
-            <div className="border border-blue-500 w-28 text-center p-2 rounded-sm">중복확인</div>
+            <div className="border border-red-500 w-28 text-center p-2 rounded-sm">중복확인</div>
           </div>
           <div className="pt-12 grid grid-cols-3 gap-4">
             <span>비밀번호<a className="text-orange-600">*</a></span>
@@ -47,7 +47,7 @@ const Join: React.FC = () => {
           <div className="pt-10 grid grid-cols-3 gap-4">
             <span>이메일<a className="text-orange-600">*</a></span>
             <input placeholder="예 jiwon@market.com" />
-            <span className="border border-blue-500 w-28 text-center rounded-sm p-2">중복확인</span>
+            <span className="border border-red-500 w-28 text-center rounded-sm p-2">중복확인</span>
           </div>
           <div className="pt-10 grid grid-cols-3 gap-4">
             <span>휴대폰<a className="text-orange-600">*</a></span>
@@ -56,7 +56,7 @@ const Join: React.FC = () => {
           </div>
           <div className="pt-10 grid grid-cols-3 gap-4">
             <span>주소<a className="text-orange-600">*</a></span>
-            <span className="border border-blue-500 text-center rounded-sm text-blue-500 w-80 p-3">🔍 주소 검색</span>
+            <span className="border border-red-500 text-center rounded-sm text-red-500 w-80 p-3">🔍 주소 검색</span>
           </div>
           <div className="text-center text-gray-600 font-light text-sm">배송지에 따라 상품 정보가 달라질 수 있습니다.</div>
             <div className="flex flex-cols pt-10">
@@ -73,8 +73,8 @@ const Join: React.FC = () => {
             <input placeholder="  YYYY  /  MM   / DD  " className="border border-gray-400 rounded-md p-4 w-80 ml-72 text-center" />
           </div>
         </div>
-        <div className='text-center'>
-          <div className=' p-4 text-center text-3xl'>가입하기</div>
+        <div className='text-center pt-20'>
+          <span className='p-6 text-center text-3xl border rounded-lg bg-red-600 text-white hover:bg-red-500'>가입하기</span>
         </div>
         <div className="pt-32"></div>
       </div>

@@ -17,23 +17,37 @@ export default function Sale(){
                     <div>상품이미지</div>
                 </div>
                 <div className="border-b border-gray-100"></div>
-                <div className="mt-10 mb-20 flex flex-cols">
+                <div className="mt-10 mb-20 flex flex-col">
                     <div>
                         상품명
+                        <input placeholder="상품명을 입력해주세요."
+                        className="ml-44 border-2 rounded-l" />
                     </div>
-                    <input placeholder="상품명을 입력해주세요."
-                        className="ml-40" />
-                    <div className="ml-40">0/40</div>
+                    
+                    <div className="pt-10">
+                        상품정보
+                        <input placeholder="상품정보를 입력해주세요."
+                        className=" ml-40 border-2  p-2 rounded-l" 
+                        style={{ width: '400px', height: '200px' }} />
+                    </div>
+                    
+                </div>
+                <div className="border-b border-gray-100"></div>
+                <div className="pt-10 pb-10">
+                    가격
                 </div>
                 <div className="border-b border-gray-100"></div>
                 <div className="mt-10 mb-20">
                     <div>카테고리</div>
                 </div>
 
+
             </div>
-            <div className="flex flex-cols">
-                <div>임시저장</div>
-                <div>등록하기</div>
+            <div className="text-center pb-10">
+               
+                <span className="mr-8 text-xl p-4 rounded-xl bg-red-400 text-white hover:bg-red-600">임시저장</span>
+                <span className="text-xl p-4 rounded-xl bg-red-400 text-white hover:bg-red-600">등록하기</span>
+                
             </div>
         </div>
     )

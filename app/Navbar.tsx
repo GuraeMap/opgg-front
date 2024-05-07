@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Sidebar from "./sidebar";
+import Close from "./close";
 
 export default function Navbar(){
     return(
         <div>
             <span className="flex flex-col pl-10 p-4">
                 <div className="flex flex-cols justify-end">
-                    <Link href={'/'} className="text-4xl font-black text-red-600">⌁ 번개장터</Link>
+                    <Link href={'/'} className="text-4xl font-black text-red-600">⌁ 중고장터</Link>
                     <input 
                         className="bg-white ml-20 w-2/5 h-10 p-4 text-gray-600  border border-gray-300"
                         placeholder="상품명, 지역명, @상점명 입력" />
@@ -17,7 +18,7 @@ export default function Navbar(){
 
                 <div className="pt-6">
                     <div className="text-gray-400 pb-4"> </div>
-                    <div className="pb-4 pl-16">🟰 번개장터 판매자센터</div>
+                    <div className="pb-4 pl-16">🟰 중고장터 판매자센터</div>
                 </div>
                
                 {/* <span className=""> 마이페이지 </span> */}
