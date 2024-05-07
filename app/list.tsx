@@ -22,7 +22,7 @@ const List = () => {
                                 </button>
                             </Link>
                             <Link href={`/detail/${i}`} passHref>
-                                <button className="font-bold pt-2">{user.name}</button>
+                                <button className="font-bold pt-2 hover:text-red-500">{user.name}</button>
                             </Link>
                             <div>
                                 <span className="font-bold text-l">{user.Salemoney}</span>

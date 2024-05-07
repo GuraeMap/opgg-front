@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Detail(){
     return(
@@ -11,7 +12,7 @@ export default function Detail(){
                     <span className="text-gray-400 pt-2">집에서도 간편히 중식</span>
                     <span className="text-3xl font-bold pt-4"><span className="text-orange-500 -ml-1">10%</span>  8,910원</span>
                     <span className="text-2xl pt-4">원산지: 상품설명/상세정보 참조</span>
-                    <span className="text-blue-800 font-semibold pt-2">로그인 후, 적립 혜택이 제공됩니다.</span>
+                    <span className="text-blue-800 font-semibold pt-2">로그인 후, 구입이 가능합니다.</span>
                     <div className="pt-2 bg-blue-200 p-2">
                         <span className="text-blue-800">2,000원</span> 
                         적립금 + 할인 쿠폰 받고 구매하기
@@ -34,9 +35,11 @@ export default function Detail(){
                         <span className="ml-2 text-3xl font-bold">8,910원</span>
                     </div>
                     
-                    <div className="flex pt-6 text-2xl p-2">
+                    <div className="flex pt-4 text-xl p-2">
                         <div className="ml-4 bg-blue-700 text-white rounded-lg w-4/5 text-center p-6">번개톡</div>
                         <div className="ml-4 bg-blue-700 text-white rounded-lg w-4/5 text-center p-6">구매하기</div>
+                        <div className="ml-4 bg-blue-700 text-white rounded-lg w-4/5 text-center p-6">🖤</div>
+                        
                     </div>
                     </div>
                 
