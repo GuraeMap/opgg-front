@@ -2,7 +2,10 @@ export default function Myshop(){
     return(
         <div>
             <div className="p-10 pl-24 flex border">
-                <div className="w-72 h-80 bg-gray-400 text-center pt-40 text-xl text-white">상점 70928745호</div>
+                <div className="w-72 h-80 bg-gray-400 text-center pt-40 text-xl text-white">
+                    <div className="rounded-full w-20 h-20"></div>
+                    <div>상점 70928745호</div>
+                </div>
                 <div>
                     <div className="pl-10 text-xl pt-2">상점 70928745호</div>
                     <div className="border-b border-gray-100 pt-4"></div>
